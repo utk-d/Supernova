@@ -1,10 +1,14 @@
 import React from 'react'
+import NvLeftPc from './NvleftPc'
+import NvLeftMb from './NvlLeftMb'
 
 const NvLeft = () => {
   return (
-    <div className='h-[100%] w-[77%] bg-red-300'>
-      
+    <div>
+      <NvLeftPc/>
+      <NvLeftMb/>
     </div>
+    
   )
 }
 

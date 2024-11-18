@@ -1,12 +1,13 @@
 import React from 'react'
 import NvMain from './components/Navbar/NvMain.jsx'
+import LpMain from './components/LpBody/LpMain.jsx'
 
 const App = () => {
   return (
-    <div id='main' className='bg-[#d4cc71] h-[100vh] w-[100vw]'>
+    <div id='main' className='sm: bg-[#ece9bb] h-[100vh] w-[100vw] '>
       <NvMain/>
+      <LpMain/>
     </div>  
   )
 }
-
 export default App
