@@ -1,6 +1,7 @@
 import React from 'react'
 import NvMain from './components/Navbar/NvMain.jsx'
 import LpMain from './components/LpBody/LpMain.jsx'
+import Nvmore from './components/Navbar/Nvmore.jsx'
 
 const App = () => {
   return (

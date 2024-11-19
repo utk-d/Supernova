@@ -2,7 +2,7 @@ import React from 'react'
 
 const MbnvList = () => {
   return (
-    <div className='bg-[#c7c4a0] h-[30vh] w-[45vw] relative top-6 left-8 shadow-gray-500 shadow-xl font-tomorrow flex flex-col gap-2 p-3 pt-5 bottom-2'>
+    <div className='bg-yellow-100 h-[30vh] w-[45vw] relative top-6 left-8 shadow-[#bebe84]  shadow-xl font-tomorrow flex flex-col gap-2 p-3 pt-5 bottom-2'>
       <a href=""><p>HOME</p></a>
       <a href=""><p>SHOP</p></a>
       <a href=""><p>ABOUT US</p></a>

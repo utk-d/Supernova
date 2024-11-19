@@ -10,9 +10,6 @@ export default {
     //   mobile : "375px",
     // },
     extend: {
-      screens: {
-        "3xl": "1680px",
-      },
       fontFamily: {
         montserrat: ['Montserrat Alternates', 'sans-serif'], // Use Montserrat Alternates as default sans font
         tomorrow: ['Tomorrow', 'sans-serif'],
