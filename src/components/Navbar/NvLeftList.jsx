@@ -4,7 +4,7 @@ import Nvmore from './Nvmore'
 const NvLeftList = () => {
     const [disMore, setDisMore] = React.useState(false)
   return (
-    <div className='h-[100%] w-[55vw] font-tomorrow hidden md:flex gap-4 items-end relative top-[3vh] left-[3vh] md:left-[1vh] md:w-[100%]'>
+    <div className='h-[100%] w-[55vw] font-tomorrow hidden md:flex gap-4 items-end relative top-[3vh] left-[3vh] md:left-[3vh] md:w-[100%]'>
       <a href=""><p className='hover:underline'>HOME</p></a>
       <a href=""><p className='hover:underline'>SHOP</p></a>
       <a href=""><p className='hover:underline'>INSTALLATION</p></a>
