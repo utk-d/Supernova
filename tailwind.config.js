@@ -5,11 +5,10 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    // screens: {
-    //   tablet : "690px",
-    //   mobile : "375px",
-    // },
     extend: {
+      screens:{
+        "im" : "1680px",
+      },
       fontFamily: {
         montserrat: ['Montserrat Alternates', 'sans-serif'], // Use Montserrat Alternates as default sans font
         tomorrow: ['Tomorrow', 'sans-serif'],
