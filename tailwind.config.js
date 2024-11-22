@@ -7,7 +7,11 @@ export default {
   theme: {
     extend: {
       screens:{
-        "im" : "1680px",
+        "im43" : "1640px",
+        "i21" : "1400px",
+        "i21+" : "1551px",
+        "im21" : "1220px",
+        "im1" : "1180px",
       },
       fontFamily: {
         montserrat: ['Montserrat Alternates', 'sans-serif'], // Use Montserrat Alternates as default sans font

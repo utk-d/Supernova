@@ -3,7 +3,7 @@ import React from 'react'
 const About = () => {
   return (
     <div className='lg:h-[52vh] lg:w-[92%] flex relative lg:left-[7.6vh] md:left-[4vh] md:bg-red-300 lg:bg-[#DFDDC3] md:h-[42.3vh]' id='about-us'>
-      <div id='about-text' className='lg:w-[40vw] lg:h-[50vh] md:w-[65vw] md:h-[40vw] lg:text-left lg:flex-col bg-blue-300'>
+      <div id='about-text' className='lg:w-[40vw] lg:h-[50vh] md:w-[65vw] md:h-[40vw] lg:text-left lg:flex-col '>
         <div id='about-text-data' className='lg:h-[20vh] lg:w-[73vh] font-tomorrow relative lg:top-[8vh] md:top-[6vh] flex flex-col lg:left-0 gap-4 '>
           <h1 className=' text-[#767676]'>ABOUT US :</h1>
           <p className='text-[#494209] lg:text-2xl md:text-[2.3vw]  '>Supernova Surgicals, established in 2016, has become a trusted leader in Madhya Pradesh’s healthcare industry. We are dedicated to providing high-quality medical and surgical supplies, delivering reliable products that healthcare professionals depend on every day.</p>
