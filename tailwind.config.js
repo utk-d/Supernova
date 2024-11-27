@@ -13,7 +13,8 @@ export default {
         "im21" : "1220px",
         "im1" : "1180px",
         "pntbimg" : "1068px",
-        "tab" : "1024px",
+        "tab" : "840px",
+
       },
       fontFamily: {
         montserrat: ['Montserrat Alternates', 'sans-serif'], // Use Montserrat Alternates as default sans font
