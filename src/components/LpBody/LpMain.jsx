@@ -1,6 +1,6 @@
 import React from 'react'
 import About from './aboutUs/About'
-import AboutImg from './aboutUs/AboutImg'
+// import AboutImg from './aboutUs/AboutImg'
 import Us4main from './aboutUs-4/Us4main'
 
 export const LpMain = () => {
@@ -8,7 +8,7 @@ export const LpMain = () => {
     <div className='flex flex-col sm: bg-[#DFDDC3] lg:h-[98vh] md:h-[100vh] '>
         <About/>
         {/* <AboutImg/> */}
-        {/* <Us4main/> */}
+        <Us4main/>
     </div>
   )
 }

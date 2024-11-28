@@ -2,9 +2,9 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div className='bg-red-400 h-[35vh] w-[92%] relative left-[2vh]' id='about-us'>
+    <div className='bg-red-400 h-[35vh] w-[92%] relative left-[4vw]' id='about-us'>
       <div id='about-text' className='bg-yellow-700 '>
-        <div id='about-text-data' className='bg-green-400 h-[] w-[]'>
+        <div id='about-text-data' className='bg-green-400'>
           <h1 className=' text-[#767676]'>ABOUT US :</h1>
           <p className='text-[#494209]'>Supernova Surgicals, established in 2016, has become a trusted leader in Madhya Pradesh’s healthcare industry. We are dedicated to providing high-quality medical and surgical supplies, delivering reliable products that healthcare professionals depend on every day.</p>
         </div>
