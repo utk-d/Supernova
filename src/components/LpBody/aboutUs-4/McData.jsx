@@ -8,12 +8,12 @@ const Title = ({text}) => {
 
 const Content = ({text, fontSize}) => {
     return (
-    <p className='text-[#494209] lg:text-[1.25vw] mt-2' style={{fontSize: `${fontSize}`}} > {text}</p>
+    <p className='text-[#494209] lg:text-[1.25vw] mt-2 ml-[0.5vh]' style={{fontSize: `${fontSize}`}} > {text}</p>
     )
 }
-const McData = ({titleText, contentText, fontSize ,h , w}) => {
+const McData = ({titleText, contentText, fontSize ,h , w, left}) => {
   return (
-    <div className='tab:h-[18vh] tab:w-[60vw] border-t-[1px] border-[#605B5B]' style={{height: `${h}`, width: `${w}`}}> 
+    <div className='tab:h-[18vh] tab:w-[60vw] border-t-[1px] relative border-[#605B5B]' style={{height: `${h}`, width: `${w}`, left: `${left}`}}> 
         <Title text={titleText}/>
         <Content text={contentText} fontSize={fontSize}/>
     </div>
