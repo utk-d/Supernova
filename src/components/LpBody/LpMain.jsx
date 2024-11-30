@@ -8,7 +8,7 @@ export const LpMain = () => {
     <div className='flex flex-col sm: bg-[#DFDDC3] lg:h-[98vh] md:h-[100vh] '>
         <About/>
         {/* <AboutImg/> */}
-        <Us4main/>
+        {/* <Us4main/> */}
     </div>
   )
 }
