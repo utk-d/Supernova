@@ -1,16 +1,14 @@
 import React from 'react'
-import MbnvList from './MbnvList'
 
 const NvlLeftMb = () => {
-  const [disMenu, setDisMenu] = React.useState(false)
 
   return (
-    <div className='md:hidden'>
-        <button onClick={() => setDisMenu(!disMenu)}>
-          {!disMenu && <img width="30" height="30" src="https://img.icons8.com/ios-filled/50/474625/menu--v6.png" alt="menu--v5" className='relative top-8 z-[4]'/>}
-        </button>
-        {disMenu && <button onClick={() => setDisMenu(!disMenu)}><img width="30" height="30" src="https://img.icons8.com/ios-filled/50/474625/multiply.png" alt="delete-sign" className='relative top-8 z-[3]'/></button>}
-        {disMenu && <MbnvList/>}
+    <div className='h-[8vw] w-[80vw] bg-white border-[0.3vw] rounded-xl relative left-[9vw] top-[6.5vw] border-black font-tomorrow text-[2.4vw] justify-center flex items-center gap-4 mt-4'>
+        <a href="" className='hover:underline'>HOME</a>
+        <a href="" className='hover:underline'>SHOP</a>
+        <a href="" className='hover:underline'>INSTALLATION</a>
+        <a href="" className='hover:underline'>ABOUT US</a>
+        <a href="" className='hover:underline flex gap-1'>MORE<img className='relative top-[1.2vw] w-[1.5vw] h-[1.5vw]' src="https://img.icons8.com/ios-filled/50/sort-down.png" alt=""  /></a>
     </div>
   )
 }
