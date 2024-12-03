@@ -1,4 +1,5 @@
 import React from 'react'
+import LpBtn from './LpBtn'
 
 const About = () => {
   return (
@@ -11,6 +12,7 @@ const About = () => {
       </div>
       </div>
     </div>
+    
   )
 }
 
