@@ -2,6 +2,7 @@ import React from 'react'
 import Sec1 from './sec-1/Sec1'
 import Sec2 from './sec-2/Sec2'
 import PnTop from './phnSec/PnTop'
+import PnBot from './phnSec/PnBot'
 
 
 const Us4main = () => {
@@ -10,6 +11,7 @@ const Us4main = () => {
         {/* <Sec1/>
         <Sec2/> */}
         <PnTop/>
+        <PnBot/>
     </div>
   )
 }
