@@ -11,7 +11,7 @@ const Us4main = () => {
         {/* <Sec1/>
         <Sec2/> */}
         <PnTop/>
-        <PnBot/>
+        {/* <PnBot/> */}
     </div>
   )
 }
